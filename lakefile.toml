@@ -1,0 +1,9 @@
+name = "verified-boolean-circuits"
+version = "0.1.0"
+defaultTargets = ["BooleanCircuits", "BooleanCircuitsTests"]
+[leanOptions]
+warningAsError = true
+[[lean_lib]]
+name = "BooleanCircuits"
+[[lean_lib]]
+name = "BooleanCircuitsTests"
